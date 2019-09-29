@@ -16,10 +16,8 @@ function handleUserInput() {
     verbIng.textContent = verb1;
     nounAnimal.textContent = noun1;
     nounDoor.textContent = noun2;
-    console.log(plural);
-    console.log(verb1);
-    console.log(noun1);
-    console.log(noun2);
-    console.log(noun3);
-    console.log(body);
+    pluralNoun2.textContent = nound3;
+    bodyPart.textContent = body;
+    
+
 }
