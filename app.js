@@ -16,8 +16,9 @@ function handleUserInput() {
     verbIng.textContent = verb1;
     nounAnimal.textContent = noun1;
     nounDoor.textContent = noun2;
-    pluralNoun2.textContent = nound3;
+    pluralNoun2.textContent = noun3;
     bodyPart.textContent = body;
+    document.getElementById("story").textContent = "I was scared out of my " + plural + ". I could hear the wind " + verb1 + " and in the distance a " + noun1 + " was howling. I crossed the room, locked the " + noun2 + " and climbed into bed, pulling the " + noun3 + " over my " + body +".";
     
-
 }
+

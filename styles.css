@@ -9,30 +9,26 @@
 
 header {
     grid-area: header;
+    font-family: fantasy;
 }
-
+h1 {
+    color: rgb(0, 184, 184);
+}
+h3 {
+    color: rgb(2, 59, 163);
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    background-color: aqua;
+    border-style: solid;
+    border-color: black;
+}
 .user-input {
     grid-area: input;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
-.story {
+#story {
     grid-area: content;
-    visibility: hidden;
-}
-#plural-noun{
-
-}
-#verb-ing {
-    
-}
-#noun-animal {
-
-}
-#noun-door {
-
-}
-#pnoun {
-
-}
-#bodypart {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
